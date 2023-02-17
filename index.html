@@ -8,18 +8,17 @@
     <title>Improved color selector</title>
   </head>
   <body>
-    <main>
-      <h1>Improved color selector</h1>
-      <section id="container">
-        <label>Select color:</label>
-        <input type="color" id="colorwheel" value="#ffffff" />
-        <section id="colorCodes">
-          <p id="hex">HEX:</p>
-          <p id="rgb">RGB:</p>
-          <p id="hsl">HSL:</p>
-        </section>
-      </section>
-    </main>
+    <section id="color_selector">
+      <div id="top_contatiner">
+        <h1>Select Color:</h1>
+        <input type="color" id="my_color_picker" value="#ffffff" name="ost" />
+      </div>
+
+      <div id="color_on_display"></div>
+      <p id="hex">HEX:</p>
+      <p id="rgb">RGB:</p>
+      <p id="hsl">HSL:</p>
+    </section>
 
     <script src="script.js"></script>
   </body>
